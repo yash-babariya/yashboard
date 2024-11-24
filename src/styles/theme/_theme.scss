@@ -1,0 +1,79 @@
+:root {
+    // Primary Colors
+    --primary-400: #42a5f5;
+    --primary-500: #2196f3;
+    --primary-600: #1e88e5;
+
+    // Neutral Colors
+    --neutral-100: rgba(0, 0, 0, 0.05);
+    --neutral-200: rgba(0, 0, 0, 0.08);
+    --neutral-300: rgba(0, 0, 0, 0.12);
+    --neutral-400: rgba(0, 0, 0, 0.16);
+    --neutral-500: rgba(0, 0, 0, 0.24);
+
+    // Grid Colors
+    --grid-color-1: rgba(0, 0, 0, 0.05);
+    --grid-color-2: rgba(0, 0, 0, 0.08);
+    --grid-color-3: rgba(0, 0, 0, 0.12);
+
+    // Theme Colors
+    --bg-primary: #ffffff;
+    --bg-secondary: #f5f5f5;
+    --bg-tertiary: #e9ecef;
+    --bg-hover: rgba(0, 0, 0, 0.05);
+    --text-primary: #1a1a1a;
+    --text-secondary: #666666;
+    --text-tertiary: #999999;
+    --border-color: #e0e0e0;
+    --shadow-color: rgba(0, 0, 0, 0.1);
+
+    // Note Colors
+    --note-yellow: #fff9c4;
+    --note-pink: #f8bbd0;
+    --note-mint: #b2dfdb;
+    --note-blue: #bbdefb;
+    --note-brown: #d7ccc8;
+    --note-purple: #e1bee7;
+    --note-green: #c8e6c9;
+    --note-orange: #ffccbc;
+}
+
+[data-theme="dark"] {
+    // Primary Colors
+    --primary-400: #90caf9;
+    --primary-500: #64b5f6;
+    --primary-600: #42a5f5;
+
+    // Neutral Colors
+    --neutral-100: rgba(255, 255, 255, 0.05);
+    --neutral-200: rgba(255, 255, 255, 0.08);
+    --neutral-300: rgba(255, 255, 255, 0.12);
+    --neutral-400: rgba(255, 255, 255, 0.16);
+    --neutral-500: rgba(255, 255, 255, 0.24);
+
+    // Grid Colors
+    --grid-color-1: rgba(255, 255, 255, 0.05);
+    --grid-color-2: rgba(255, 255, 255, 0.08);
+    --grid-color-3: rgba(255, 255, 255, 0.12);
+
+    // Theme Colors
+    --bg-primary: #1e1e1e;
+    --bg-secondary: #141414;
+    --bg-tertiary: #2d2d2d;
+    --bg-hover: rgba(255, 255, 255, 0.1);
+    --text-primary: #ffffff;
+    --text-secondary: #999999;
+    --text-tertiary: #666666;
+    --border-color: #404040;
+    --shadow-color: rgba(0, 0, 0, 0.3);
+
+    // Note Colors
+    --note-yellow: #827717;
+    --note-pink: #880e4f;
+    --note-mint: #004d40;
+    --note-blue: #0d47a1;
+    --note-brown: #3e2723;
+    --note-purple: #4a148c;
+    --note-green: #1b5e20;
+    --note-orange: #bf360c;
+}

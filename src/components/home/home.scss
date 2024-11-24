@@ -1,0 +1,13 @@
+.home-container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+}
+
+.main-content {
+    flex: 1;
+    background: var(--bg-secondary);
+}

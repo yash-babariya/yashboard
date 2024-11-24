@@ -1,0 +1,11 @@
+@mixin dark-mode {
+    [data-theme="dark"] & {
+        @content;
+    }
+}
+
+@mixin light-mode {
+    [data-theme="light"] & {
+        @content;
+    }
+}
